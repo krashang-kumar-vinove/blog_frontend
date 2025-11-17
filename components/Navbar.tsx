@@ -28,9 +28,9 @@ export default function Navbar() {
 
       {/* Links */}
       <div className="flex items-center gap-6 text-lg font-medium">
-        <Link href="/posts" className="hover:text-yellow-300 transition-colors">
+        {/* <Link href="/posts" className="hover:text-yellow-300 transition-colors">
           Posts
-        </Link>
+        </Link> */}
         <Link
           href="/posts/create"
           className="hover:text-yellow-300 transition-colors"
