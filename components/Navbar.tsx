@@ -20,7 +20,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500 shadow-lg px-6 py-4 flex items-center justify-between text-white">
+    <nav className="bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500 shadow-lg px-6 py-4 flex items-center justify-between text-white">
       {/* Logo */}
       <div className="text-2xl font-bold hover:scale-105 transition-transform cursor-pointer">
         <Link href="/">MyBlog</Link>
